@@ -1,0 +1,14 @@
+mysql> INSERT INTO Persons Values ('3','Ruby','Tong','SonTra','DaNang');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from Persons;
++----------+----------+-----------+---------+--------+
+| PersonID | LastName | FirstName | Address | City   |
++----------+----------+-----------+---------+--------+
+|        1 | Ngoc     | Tong      | SonTra  | DaNang |
+|        2 | Ruby     | Tong      | SonTra  | DaNang |
+|        3 | Ruby     | Tong      | SonTra  | DaNang |
++----------+----------+-----------+---------+--------+
+3 rows in set (0.00 sec)
+
+mysql> 

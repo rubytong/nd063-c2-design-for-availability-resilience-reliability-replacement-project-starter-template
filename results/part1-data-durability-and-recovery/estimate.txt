@@ -1,0 +1,10 @@
+1.Minimum RTO for a single AZ outage: 
+With one standby, it's 60 seconds with zero data loss and with no manual intervention
+2.Minimum RTO for a single region outage
+With one read replica in different region and everything is ready, it takes several minutes or longer to complete, depending on the size of the read replica
+3.Minimum RPO for a single AZ outage
+With one standby, zero data lost
+4.Minimum RPO for a single region outage
+With one read replica in different region and everything is ready, few minutes data lost depending on replica log, which is the amount of time that the replica is behind the source database. 
+A replica lag can impact your recovery. Replica lag can vary based on the network latency between the source and destination Regions. 
+It can also be affected by the amount of traffic that is being replicated.
